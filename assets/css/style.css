@@ -215,3 +215,12 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Enlarge text for smaller screens??? */
+
+@media screen and (min-width: 640px) {
+  p {
+    font-size: 36;
+  }
+
+}
